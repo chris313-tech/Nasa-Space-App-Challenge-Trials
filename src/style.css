@@ -1,0 +1,30 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  background: #080d1c;
+  color: white;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+#game-container {
+  width: min(100%, 960px);
+  border: 2px solid #263b60;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 0 35px rgba(56, 232, 255, 0.15);
+}
+
+canvas {
+  display: block;
+  max-width: 100%;
+}
